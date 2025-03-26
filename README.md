@@ -1,12 +1,36 @@
-# React + Vite
+# Guess The NBA Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Guess The NBA Player is a fun game where you try to guess the name of a hidden NBA player based on hints and clues provided.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Random NBA Player**: Each time you play, a random NBA player is selected for you to guess.
+- **Hints**: You can use hints such as position, points per game (PPG), height, draft year, and current team to help you guess the player's name.
+- **Scoring**: Earn points for each correct guess and try to achieve the highest score possible.
+- **Limited Guesses**: You have a limited number of guesses for each player, so use them wisely.
+- **Animations**: Enjoy subtle animations to enhance your gaming experience.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get started with Guess The NBA Player, I am hosting it with Github Pages at https://anthonynbui.github.io/Guess-The-NBA-Player/
+
+## OR
+
+You can follow these steps to run it locally.
+
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. Start the application by running `npm start`.
+4. Open your browser and navigate to `http://localhost:3000` to play the game.
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Vite: A build tool that enables fast and easier development for web projects.
+- Material-UI: A popular React UI framework for building responsive and customizable components.
+- TailwindCSS: CSS Framework for rapid UI development.
+
+## Acknowledgements
+
+- Thanks to NBA_API `https://github.com/swar/nba_api` for providing player data.
+- Built by Anthony Bui
