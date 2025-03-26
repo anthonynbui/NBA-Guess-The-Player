@@ -54,16 +54,13 @@ function App() {
 
   const handlePlayerChange = (event, value, reason) => {
     if (reason === "selectOption") {
-      console.log(value);
 
       if (value === player.name) {
         addScore();
         decrementGuess();
         setCorrectGuess(true);
         resetPlayers();
-        console.log("Correct guess");
       } else {
-        console.log("Incorrect guess");
         setIncorrectGuess(true);
         decrementGuess();
       }
@@ -102,10 +99,6 @@ function App() {
   useEffect(() => {
     setPlayer(getRandomPlayer());
   }, []);
-
-  useEffect(() => {
-    console.log(player);
-  }, [player]);
 
   useEffect(() => {
     if (guesses === 0) {
